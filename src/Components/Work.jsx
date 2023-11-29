@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { DarkTheme } from "../Shared/Themes";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import PowerButton from "../Shared/PowerButton";
 
