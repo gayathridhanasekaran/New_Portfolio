@@ -68,7 +68,7 @@ justify-content: space-evenly;
 
 const Intro = () => {
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
-    const texts = ['{ UI/UX Designer }', '{ Web Developer }'];
+    const texts = ['{ Web Developer }', '{ UI/UX Designer }'];
 
     useEffect(() => {
         const onAnimationIteration = () => {

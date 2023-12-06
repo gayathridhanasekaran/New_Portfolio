@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import NextazyImg from "../Assets/Image/Nextazy.png";
+import BlockchainImg from "../Assets/Image/Blockchain.png";
+import NexfolioImg from "../Assets/Image/Nexfolio.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -178,7 +181,7 @@ const WorkData = () => {
           xPercent: 0,
         },
         {
-          xPercent: -50,
+          xPercent: -60,
           easy: "none",
         },
         0
@@ -221,18 +224,20 @@ const WorkData = () => {
         0
       );
 
-    // window.addEventListener("resize", () => {
-    //   ScrollTrigger.refresh();
-    // });
-    // gsap.timeline({}).to(
-    //   window,
-    //   {
-    //     duration: 1.75,
-    //     scrollTo: 0.32 * window.innerHeight,
-    //     ease: "power1.inOut",
-    //   },
-    //   0.3
-    // );
+    // const timeline = gsap.timeline({});
+    // timeline.to(window, {
+    //   duration: 1.75,
+    //   scrollTo: 0.32 * window.innerHeight,
+    //   ease: "power1.inOut"
+    // }, 0.3);
+
+    // const timeline = gsap.timeline({});
+    // timeline.to({}, {
+    //   duration: 1.75,
+    //   scrollTo: 0.32 * window.innerHeight,
+    //   ease: "power1.inOut"
+    // }, 0.3);
+
   }, []);
 
   return (
@@ -242,29 +247,60 @@ const WorkData = () => {
       <div className="content">
         <div className="content-section">
           <div>
-            <h1>Dude and Scroll</h1>
+            <div className="workTitle">
+              <svg viewBox="0 0 800 300">
+                <text x="50%" y="50%" text-anchor="middle">
+                  Work
+                </text>
+              </svg>
+            </div>
+            <p className="paracontent">I'm proud to share the highlights of my work in UI/UX design, UI development, and graphic & web design from my experiences over the past four years at different companies. In the ever-changing world of digital design and development, my role has evolved, and I continue to learn and gain new skills every day.</p>
             <p className="arrow-animated">↓</p>
           </div>
         </div>
         <div className="content-section">
           <div>
-            <h1>What's this?</h1>
-            <p>
-              That's learning the basic walk cycle animation and playing with
-              the GSAP implementation&nbsp;of&nbsp;it.
-            </p>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={BlockchainImg} alt="work" />
+              </div>
+              <div className="WorkContent">
+                <h1>Blockchain Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> Created and designed a creative service based website with the efficient tools to make the platform easy and convenient for the users in very effective manner.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> PHP, Angular JS, Bootstrap, Ant Framework </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="content-section">
           <div>
-            <h1>So what?</h1>
-            <p>
-              You can use this code and design concept for your project. The
-              animation parameters are easy to tweak, graphic elements can be
-              replaced.
-            </p>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={NexfolioImg} alt="work" />
+              </div>
+              <div className="WorkContent">
+                <h1>Cryptocurrency Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="content-section">
+          <div>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={NextazyImg} alt="work" />
+              </div>
+              <div className="WorkContent">
+                <h1>Cryptocurrency Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+              </div>
+            </div>
+          </div>
+        </div>
+       
         <div className="content-section"></div>
       </div>
 

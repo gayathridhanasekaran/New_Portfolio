@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "./AllSvgs";
+import { Github, Behance } from "./AllSvgs";
 import { lightTheme } from "./Themes";
 
 const Icons = styled.div`
@@ -39,7 +39,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href="/"
+          href="https://github.com/gayathridhanasekaran"
         >
           <Github
             width={25}
@@ -56,16 +56,16 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href="/"
+          href="https://www.behance.net/gayusri"
         >
-          <Twitter
+          <Behance
             width={25}
             height={25}
             fill={props.theme === "dark" ? lightTheme.text : lightTheme.body}
           />
         </a>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.4 }}
@@ -98,7 +98,7 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? lightTheme.text : lightTheme.body}
           />
         </a>
-      </motion.div>
+      </motion.div> */}
 
       <Line
         color={props.theme}
