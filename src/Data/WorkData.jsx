@@ -345,8 +345,8 @@ const WorkData = () => {
               </div>
               <div className="WorkContent">
                 <h1>Cryptocurrency Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> As a skilled Web Designer and Web Developer, I have crafted and designed a creative service-based website, incorporating efficient tools to ensure a seamless and convenient experience for users. Leveraging my expertise, I successfully developed the website for <i style={{color: '#d5ff18'}}>imagicainterior.in</i>, employing effective strategies to enhance the platform's usability and appeal.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, CSS, Bootstrap, Javascript </p>
               </div>
             </div>
           </div>
@@ -380,9 +380,9 @@ const WorkData = () => {
                 </a>
               </div>
               <div className="WorkContent">
-                <h1>Healthcare Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+                <h1>SocihoAds</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> With expertise in Web Design and Development, I have created a unique service-based website, meticulously crafted for intuitive user experience. My advanced tools and design sensibilities culminated in the successful launch of <i style={{color: '#d5ff18'}}>socihoads.com</i>, where I implemented powerful strategies to optimize usability and amplify the platform's visual appeal.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, CSS, Bootstrap, Javascript </p>
               </div>
             </div>
           </div>
