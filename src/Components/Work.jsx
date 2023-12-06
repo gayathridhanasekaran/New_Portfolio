@@ -6,7 +6,7 @@ import { DarkTheme } from "../Shared/Themes";
 import PowerButton from "../Shared/PowerButton";
 
 import BigTitlte from "../Shared/BigTitlte";
-import AnimatedCursor from "../Shared/CustomCursor";
+// import AnimatedCursor from "../Shared/CustomCursor";
 import LogoComponent from "../Shared/Logo";
 import SocialIcons from "../Shared/SocialIcons";
 import WorkData from "../Data/WorkData";
@@ -38,10 +38,11 @@ const Work = () => {
     <ThemeProvider theme={DarkTheme}>
       <Box>
         <Container>
-          <AnimatedCursor/>
+          {/* <AnimatedCursor/> */}
           <LogoComponent />
           <SocialIcons />
           <PowerButton />
+          <BigTitlte text="WORK" />
           {/* <Main initial="hidden" animate="show"> */}
           <WorkData />
           {/* </Main> */}

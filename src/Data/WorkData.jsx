@@ -4,6 +4,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import NextazyImg from "../Assets/Image/Nextazy.png";
 import BlockchainImg from "../Assets/Image/Blockchain.png";
 import NexfolioImg from "../Assets/Image/Nexfolio.png";
+import linkIcon from "../Assets/Svg/link.svg";
+import UptozImg from "../Assets/Image/Uptoz.png";
+import ImagicaImg from "../Assets/Image/Imagica.png";
+import CurebayImg from "../Assets/Image/Curebay.png";
+import SocialImg from "../Assets/Image/Social.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -181,7 +186,7 @@ const WorkData = () => {
           xPercent: 0,
         },
         {
-          xPercent: -60,
+          xPercent: -77,
           easy: "none",
         },
         0
@@ -263,9 +268,29 @@ const WorkData = () => {
             <div className="flex-between">
               <div className="workImg">
                 <img src={BlockchainImg} alt="work" />
+                <a href="https://blockchainfirm.io/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
               </div>
               <div className="WorkContent">
                 <h1>Blockchain Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> Created and designed a creative service based website with the efficient tools to make the platform easy and convenient for the users in very effective manner.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> PHP, Angular JS, Bootstrap, Ant Framework </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-section">
+          <div>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={NextazyImg} alt="work" />
+                <a href="https://www.nextazy.com/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
+              </div>
+              <div className="WorkContent">
+                <h1>Trading Platform</h1>
                 <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> Created and designed a creative service based website with the efficient tools to make the platform easy and convenient for the users in very effective manner.</p>
                 <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> PHP, Angular JS, Bootstrap, Ant Framework </p>
               </div>
@@ -290,7 +315,10 @@ const WorkData = () => {
           <div>
             <div className="flex-between">
               <div className="workImg">
-                <img src={NextazyImg} alt="work" />
+                <img src={UptozImg} alt="work" />
+                <a href="https://uptoztech.in/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
               </div>
               <div className="WorkContent">
                 <h1>Cryptocurrency Platform</h1>
@@ -300,7 +328,61 @@ const WorkData = () => {
             </div>
           </div>
         </div>
+
+        <div className="content-section">
+          <div>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={ImagicaImg} alt="work" />
+                <a href="https://imagicainterior.in/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
+              </div>
+              <div className="WorkContent">
+                <h1>Cryptocurrency Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="content-section">
+          <div>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={CurebayImg} alt="work" />
+                <a href="https://curebay.com/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
+              </div>
+              <div className="WorkContent">
+                <h1>Healthcare Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+              </div>
+            </div>
+          </div>
+        </div>
        
+        <div className="content-section">
+          <div>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={SocialImg} alt="work" />
+                <a href="https://socihoads.com/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
+              </div>
+              <div className="WorkContent">
+                <h1>Healthcare Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="content-section"></div>
       </div>
 

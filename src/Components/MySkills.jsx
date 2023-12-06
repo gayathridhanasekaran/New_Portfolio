@@ -47,7 +47,7 @@ color: #DCDCDC
 
 const Description = styled.div`
 color: #DCDCDC;
-font-size: calc(0.6em + 1vw);
+font-size: calc(0.6em + 0.5vw);
 padding: 0.5rem 0;
 `
 
@@ -84,17 +84,21 @@ const MySkills = () => {
                             <Title>
                                 <Design fill="#fff" width={40} height={40} style={{ paddingRight: '2rem' }} /> Designer
                             </Title>
-                            <Description className="paraColor">
+                            <Description>
                                 UI/UX Designer with a passion for designing beautiful and functional ser experience.
                             </Description>
-                            <br /> <br />
+                            <p className="paracontent" style={{ fontSize: '18px'}}> <b style={{ color: '#d5ff18' }}>Design Tools :</b> Adobe Creative Suite (Illustrator, XD), Figma </p>
+
+                            <br /> 
                             <Title>
                                 <Develope fill="#fff" width={40} height={40} style={{ paddingRight: '2rem' }} /> Developer
                             </Title>
-                            <Description className="paraColor">
+                            <Description>
                                 Web Developer who focuses on writing clean, elegant and efficient code.
                             </Description>
-
+                            <p className="paracontent" style={{ fontSize: '18px'}}> <b style={{ color: '#d5ff18' }}>Coding Languages :</b> HTML5, CSS, SCSS, Javascript (Basic), React, Angular </p>
+                            <p className="paracontent" style={{ fontSize: '18px'}}> <b style={{ color: '#d5ff18' }}>Version Control :</b> Git, GitHub</p>
+                        
                         </Content>
                         <SkillsNane />
                     </Main>
