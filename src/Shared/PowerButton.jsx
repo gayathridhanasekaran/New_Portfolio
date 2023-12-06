@@ -23,8 +23,13 @@ display: flex;
 justify-content: center;
 align-items:center;
 z-index:99;
-
 cursor: pointer;
+
+@media (max-width: 561px) {
+ right: 0;
+ left: auto;
+ position: absolute
+}
 
 &:hover{
     background-color: #D5FF18;

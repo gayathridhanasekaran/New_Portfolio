@@ -58,7 +58,7 @@ const Main = styled.div`
     width: auto;
     height: auto;
     left: calc(3rem + 5vw);
-        
+    font-size: calc(1rem + 1vw);
     }
 `;
 

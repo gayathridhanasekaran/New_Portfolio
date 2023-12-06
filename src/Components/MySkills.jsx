@@ -21,7 +21,9 @@ justify-content: space-evenly;
 align-items: center;
 @media (max-width: 561px) {
         overflow-x: hidden;
-        overflow-y: auto
+        overflow-y: auto;
+        width:100%;
+        height: 100%
     }
 `;
 
@@ -42,13 +44,22 @@ padding-left: 4rem;
 
 const Title = styled.h2`
 font-size: calc(1em + 1vw);
-color: #DCDCDC
+color: #DCDCDC;
+display: flex;
+@media (max-width: 561px) {
+    font-size: calc(2em + 1vw);
+
+}
 `
 
 const Description = styled.div`
 color: #DCDCDC;
 font-size: calc(0.6em + 0.5vw);
 padding: 0.5rem 0;
+@media (max-width: 561px) {
+    font-size: calc(1.2em + 0.5vw);
+
+}
 `
 
 const Content = styled.div`

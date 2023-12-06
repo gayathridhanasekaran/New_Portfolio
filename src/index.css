@@ -399,7 +399,7 @@ outerSize = 20, */
   .tag-cloud {
     width: 100% !important;
     height: 300px !important;
-    margin: 8rem;
+    margin-top: 10rem;
   }
 }
 
@@ -560,6 +560,21 @@ outerSize = 20, */
   }
   .WorkContent {
     width: 100%;
+  }
+  .page {
+    height: 100%;
+  }
+  .content {
+    position: relative;
+    display: block;
+  }
+  .content-section {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+  }
+  .animation-container {
+    display: none;
   }
 }
 

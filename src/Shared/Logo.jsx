@@ -6,6 +6,10 @@ import styled from 'styled-components'
 const LogoIcon = styled.div`
 position: fixed;
 top: 2.5rem;
+@media (max-width: 561px) {
+  position: relative;
+  top: 0
+ }
 `
 const LogoComponent = () => {
   return (

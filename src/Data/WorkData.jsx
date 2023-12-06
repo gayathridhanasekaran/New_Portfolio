@@ -163,6 +163,11 @@ const WorkData = () => {
     const numberOfCycles = Math.ceil(
       (3 * window.innerWidth) / window.innerHeight
     );
+    // Use media query to check the window width
+    const isSmallScreen = window.innerWidth < 768;
+
+    // Set xPercent based on the screen size
+    const xPercentValue = isSmallScreen ? 0 : -77;
     gsap
       .timeline({
         scrollTrigger: {
@@ -186,7 +191,7 @@ const WorkData = () => {
           xPercent: 0,
         },
         {
-          xPercent: -77,
+          xPercent: xPercentValue,
           easy: "none",
         },
         0
