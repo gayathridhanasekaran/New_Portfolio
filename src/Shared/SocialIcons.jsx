@@ -40,6 +40,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           href="https://github.com/gayathridhanasekaran"
+          rel="noopener noreferrer"
         >
           <Github
             width={25}
@@ -57,6 +58,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           href="https://www.behance.net/gayusri"
+          rel="noopener noreferrer"
         >
           <Behance
             width={25}
