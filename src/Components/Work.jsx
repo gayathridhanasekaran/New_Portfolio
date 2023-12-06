@@ -42,7 +42,6 @@ const Work = () => {
           <LogoComponent />
           <SocialIcons />
           <PowerButton />
-          <BigTitlte text="WORK" />
           {/* <Main initial="hidden" animate="show"> */}
           <WorkData />
           {/* </Main> */}

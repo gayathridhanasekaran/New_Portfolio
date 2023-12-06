@@ -593,3 +593,8 @@ outerSize = 20, */
   text-decoration: none;
   color: inherit;
 }
+
+.splHeading {
+  bottom: 0;
+  right: 0;
+}
