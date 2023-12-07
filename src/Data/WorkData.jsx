@@ -279,7 +279,7 @@ const WorkData = () => {
               </div>
               <div className="WorkContent">
                 <h1>Blockchain Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> Created and designed a creative service based website with the efficient tools to make the platform easy and convenient for the users in very effective manner.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> I played a crucial role in the development of <i style={{color: '#d5ff18'}}>blockchainfirm.io</i>, a platform dedicated to blockchain technology. My responsibilities encompassed the entire website design and development process, ensuring a user-friendly and visually appealing interface for clients. From conceptualizing the layout and user flow to coding the website's functionalities, I was instrumental in bringing this project to life and helping Blockchain Firm solidify its presence in the blockchain space.</p>
                 <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> PHP, Angular JS, Bootstrap, Ant Framework </p>
               </div>
             </div>
@@ -296,8 +296,25 @@ const WorkData = () => {
               </div>
               <div className="WorkContent">
                 <h1>Trading Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> Created and designed a creative service based website with the efficient tools to make the platform easy and convenient for the users in very effective manner.</p>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> PHP, Angular JS, Bootstrap, Ant Framework </p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> The project involved building a secure, user-friendly platform for buying, selling, and trading cryptocurrencies. I implemented advanced features for charting, technical analysis, and portfolio management, ensuring a seamless and intuitive user experience. The platform was built with scalability in mind, allowing for future growth and expansion.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b>HTML, SCSS, Angular JS, Bootstrap, Ant Framework </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-section">
+          <div>
+            <div className="flex-between">
+              <div className="workImg">
+                <img src={CurebayImg} alt="work" />
+                <a href="https://curebay.com/" target="_blank" className="linkicon" rel="noopener noreferrer">
+                  <img src={linkIcon} alt="icon" />
+                </a>
+              </div>
+              <div className="WorkContent">
+                <h1>Healthcare Platform</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, React JS, Ant Framework, Tailwind CSS </p>
               </div>
             </div>
           </div>
@@ -309,8 +326,8 @@ const WorkData = () => {
                 <img src={NexfolioImg} alt="work" />
               </div>
               <div className="WorkContent">
-                <h1>Cryptocurrency Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
+                <h1>Nexfolio</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> Driven and passionate software developer with extensive experience in web development. I spearheaded the design and development of Nexfolio, a comprehensive crypto trading platform. My expertise in user interface/user experience (UI/UX) and backend development resulted in a user-friendly platform optimized for efficient crypto trading. My dedication to innovation and excellence ensures I deliver high-quality, secure, and scalable solutions.</p>
                 <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
               </div>
             </div>
@@ -326,9 +343,9 @@ const WorkData = () => {
                 </a>
               </div>
               <div className="WorkContent">
-                <h1>Cryptocurrency Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
+                <h1>Uptoz Technology</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> I am proud to have designed and developed the website for UptoZ Technologies, a startup IT solutions and services company. Utilizing my expertise in web design and development, I created a user-friendly and visually appealing platform that effectively showcases UptoZ's offerings and enhances their online presence.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, React JS, Tailwind CSS </p>
               </div>
             </div>
           </div>
@@ -344,27 +361,9 @@ const WorkData = () => {
                 </a>
               </div>
               <div className="WorkContent">
-                <h1>Cryptocurrency Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> As a skilled Web Designer and Web Developer, I have crafted and designed a creative service-based website, incorporating efficient tools to ensure a seamless and convenient experience for users. Leveraging my expertise, I successfully developed the website for <i style={{color: '#d5ff18'}}>imagicainterior.in</i>, employing effective strategies to enhance the platform's usability and appeal.</p>
+                <h1>Imagica</h1>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> I was the driving force behind the creation of a user-friendly and aesthetically pleasing website for "Imagicainterior," a respected interior construction firm. From initial concept to final launch, I handled the website's design and development, ensuring a seamless user experience that showcased "Imagicainterior's" impressive portfolio and expertise.</p>
                 <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, CSS, Bootstrap, Javascript </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="content-section">
-          <div>
-            <div className="flex-between">
-              <div className="workImg">
-                <img src={CurebayImg} alt="work" />
-                <a href="https://curebay.com/" target="_blank" className="linkicon" rel="noopener noreferrer">
-                  <img src={linkIcon} alt="icon" />
-                </a>
-              </div>
-              <div className="WorkContent">
-                <h1>Healthcare Platform</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> From the scratch and with creative ideas I designed the UI for the crypto platform which is single platform that connects the banks and crypto holders together.</p>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, SCSS, Angular JS, Ant Framework </p>
               </div>
             </div>
           </div>
@@ -381,7 +380,7 @@ const WorkData = () => {
               </div>
               <div className="WorkContent">
                 <h1>SocihoAds</h1>
-                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> With expertise in Web Design and Development, I have created a unique service-based website, meticulously crafted for intuitive user experience. My advanced tools and design sensibilities culminated in the successful launch of <i style={{color: '#d5ff18'}}>socihoads.com</i>, where I implemented powerful strategies to optimize usability and amplify the platform's visual appeal.</p>
+                <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Synopsis :</b> I designed and developed a user-friendly and visually appealing website for "Socihoads," a burgeoning startup in the digital marketing space. My efforts ensured a seamless user experience, effectively showcased the company's services, and contributed to their online presence and brand awareness.</p>
                 <p className="paracontent" style={{fontSize: '18px'}}> <b style={{color: '#d5ff18'}}>Tools :</b> HTML, CSS, Bootstrap, Javascript </p>
               </div>
             </div>
